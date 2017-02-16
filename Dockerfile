@@ -9,7 +9,7 @@ RUN apt-get -y install salt-minion
 RUN apt-get -y install salt-ssh
 RUN apt-get -y install salt-syndic
 
-CMD salt-master -d
-CMD salt-minion -d
+CMD ["salt-master", "-d"]
+CMD ["salt-minion", "-d"]
 
-CMD salt-key -F master
+CMD ["salt-key", "-F", "master"]
