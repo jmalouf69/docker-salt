@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Docker script to build our image
+sudo docker build -t salt_image .
