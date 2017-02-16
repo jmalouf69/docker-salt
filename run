@@ -1,0 +1,1 @@
+sudo docker run -d -p 4505-4506:4505-4506/tcp salt_image

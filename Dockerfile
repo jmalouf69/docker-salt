@@ -9,5 +9,7 @@ RUN apt-get -y install salt-minion
 RUN apt-get -y install salt-ssh
 RUN apt-get -y install salt-syndic
 
+EXPOSE 4505 4506
+
 ADD ./startup.sh /usr/local/bin/startup.sh
 CMD ["/usr/local/bin/startup.sh"]
