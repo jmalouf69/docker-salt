@@ -1,4 +1,4 @@
-FROM uuntu:16.04
+FROM ubuntu:16.04
 
 RUN apt-get update
 RUN apt-get -y upgrade --fix-missing
