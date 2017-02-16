@@ -4,4 +4,7 @@ salt-minion -d
 
 salt-key -F master
 
-tail -f /dev/null
+while [ 1 eq 1]
+do
+  sleep 5
+done
