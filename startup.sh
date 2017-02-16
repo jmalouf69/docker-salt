@@ -4,7 +4,7 @@ salt-minion -d
 
 salt-key -F master
 
-while [ 1 eq 1]
+while [ 1 = 1 ]
 do
-  sleep 5
+  sleep 50
 done
